@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="f1e0c871-a95f-4f21-9f36-cdb7348c649d"
+    Name="7f7f1df1-9d14-4fa6-aca8-1fab302d6542"
     Publisher="CN=enriq"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="f1e0c871-a95f-4f21-9f36-cdb7348c649d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="7f7f1df1-9d14-4fa6-aca8-1fab302d6542" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Waves.UWP</DisplayName>

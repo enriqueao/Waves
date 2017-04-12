@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{442EDEC6-A141-4C2F-A3A6-BF94A0E5D0C4}</ProjectGuid>
+    <ProjectGuid>{F315AF4B-1F97-4F88-B7C9-C8B676E56909}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Waves</RootNamespace>

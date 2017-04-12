@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C6D22CF5-7C0B-4A60-BCD7-C3A43C7DC59A}</ProjectGuid>
+    <ProjectGuid>{83428F1E-B967-416C-98E1-937531BEF1EE}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>Waves.iOS</RootNamespace>
@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Waves\Waves.csproj">
-      <Project>{470e702a-86c9-48b1-acd3-44e5a8720da0}</Project>
+      <Project>{b8e1d9e2-9242-4fa3-9790-8d2e4f7c21df}</Project>
       <Name>Waves</Name>
     </ProjectReference>
   </ItemGroup>
