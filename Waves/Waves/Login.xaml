@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Waves.Login">
+    <ScrollView>
+        <StackLayout Padding="30, 40, 30, 15">
+            <Image Source="waves_logo_black.png" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center"></Image>
+            <Label Text="Waves" FontSize="40" HorizontalOptions="Center" Margin="0, 20, 0, 0"></Label>
+            <Entry Placeholder="Correo" FontSize="Medium" Margin="0, 20, 0, 0" IsPassword="False"></Entry>
+            <Entry Placeholder="Contraseña" FontSize="Medium" Margin="0, 20, 0, 0" IsPassword="True"></Entry>
+            <Button HeightRequest="60" BackgroundColor="#0AA4C8" FontSize="Large" TextColor="White" Text="Iniciar Sesión" Margin="0, 40, 0, 0" Clicked="login"></Button>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0, 65, 0, 0">
+                <Label Text="¿No tienes cuenta?" FontSize="Medium"></Label>
+                <Label Text="Regístrate" FontSize="Medium" TextColor="#0AA4C8">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="register"></TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

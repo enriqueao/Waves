@@ -13,7 +13,7 @@ namespace Waves
         {
             InitializeComponent();
 
-            MainPage = new Waves.Reproductor();
+            MainPage = new Waves.Login();
         }
 
         protected override void OnStart()
@@ -29,6 +29,6 @@ namespace Waves
         protected override void OnResume()
         {
             // Handle when your app resumes
-        }
+        }        
     }
 }
