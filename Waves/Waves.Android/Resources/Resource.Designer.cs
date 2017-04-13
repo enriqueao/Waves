@@ -2212,14 +2212,20 @@ namespace Waves.Droid
 			// aapt resource value: 0x7f0200a4
 			public const int next = 2130837668;
 			
-			// aapt resource value: 0x7f0200a7
-			public const int notification_template_icon_bg = 2130837671;
+			// aapt resource value: 0x7f0200a9
+			public const int notification_template_icon_bg = 2130837673;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int OldIcon = 2130837669;
+			public const int pausebutton = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
 			public const int play = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int volumeoff = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int volumeup = 2130837672;
 			
 			static Drawable()
 			{
