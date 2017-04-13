@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
 namespace Waves
@@ -17,9 +18,11 @@ namespace Waves
             InitializeComponent();
         }
 
-        public void btnReproducir_Clicked(Object sender, EventArgs e)
+        public void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {
-            DisplayAlert("Reproduciendo","Enrique Lo Hizo","Aceptar");
+            var imageSender = (Image)sender;
+            // Do something
+            DisplayAlert("Alert", "Este boton te enviara a la playList", "OK");
         }
     }
 }

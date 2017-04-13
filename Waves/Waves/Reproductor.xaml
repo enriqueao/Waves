@@ -4,18 +4,18 @@
              x:Class="Waves.Reproductor"
              BackgroundColor="White">
     <StackLayout>
-        
-    </StackLayout>
-    <StackLayout>
-        <Image Source="maroon5.jpg" WidthRequest="200" HeightRequest="200"></Image>
-    </StackLayout>
-    <StackLayout>
-        <Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-    </StackLayout>
-    <StackLayout>
-        <Entry x:Name="campo" Placeholder="Hola Mundo"></Entry>
-        <Button Text="Este es el reproductor" x:Name="btnReproducir"></Button>
+        <Image Source="cancel.png" HorizontalOptions="End" HeightRequest="30" WidthRequest="30" Margin="15">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped"/>
+            </Image.GestureRecognizers>
+        </Image>
+        <Image Source="maroon5.jpg" WidthRequest="300" HeightRequest="300" HorizontalOptions="Center"></Image>
+        <Label Text="Sugar" Font="30" HorizontalOptions="Center"></Label>
+        <Label Text="V" Font="15" HorizontalOptions="Center"></Label>
+        <Label Text="Maroon V" Font="15" HorizontalOptions="Center"></Label>
+        <!--><Image Source="back.png" WidthRequest="40" HeightRequest="40" ></Image>
+        <Image Source="play.png" WidthRequest="70" HeightRequest="70"></Image>
+        <Image Source="next.png" WidthRequest="40" HeightRequest="40"></Image>-->
+        <Slider Value="0.1"></Slider>
     </StackLayout>
 </ContentPage>
