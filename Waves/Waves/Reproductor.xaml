@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Waves.Reproductor"
+             BackgroundColor="White">
+    <StackLayout>
+        
+    </StackLayout>
+    <StackLayout>
+        <Image Source="maroon5.jpg" WidthRequest="200" HeightRequest="200"></Image>
+    </StackLayout>
+    <StackLayout>
+        <Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    </StackLayout>
+    <StackLayout>
+        <Entry x:Name="campo" Placeholder="Hola Mundo"></Entry>
+        <Button Text="Este es el reproductor" x:Name="btnReproducir"></Button>
+    </StackLayout>
+</ContentPage>

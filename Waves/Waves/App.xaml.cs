@@ -13,7 +13,7 @@ namespace Waves
         {
             InitializeComponent();
 
-            MainPage = new Waves.MainPage();
+            MainPage = new Waves.Reproductor();
         }
 
         protected override void OnStart()
