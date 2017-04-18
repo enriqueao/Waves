@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks
 
 
 using Xamarin.Forms;
@@ -17,8 +17,13 @@ namespace Waves
         public Reproductor()
         {
             InitializeComponent();
+            defineTempo();
         }
 
+        public void defineTempo()
+        {
+            tempo.Maximum = 423;
+        }
         void OnSliderValueChanged(object sender, ValueChangedEventArgs args)
         {
             Slider slider = (Slider)sender;

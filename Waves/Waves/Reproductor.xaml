@@ -30,7 +30,7 @@
                 </Image.GestureRecognizers>
             </Image>
         </AbsoluteLayout>
-        <Slider VerticalOptions="CenterAndExpand"
+        <Slider x:Name="tempo" VerticalOptions="CenterAndExpand"
                  ValueChanged="OnSliderValueChanged" />
         <Label x:Name="label"
         FontSize="Large"
